@@ -14,7 +14,7 @@ high_frequency = 420  # 2000 Hz
 # Reproduce el sonido molesto
 try:
     while True:
-        beep(board.GP13, high_frequency, 0.5)  # Sonido durante 0.5 segundos
+        beep(board.GP2, high_frequency, 0.5)  # Sonido durante 0.5 segundos
         time.sleep(0.1)  # Breve pausa entre sonidos
 except KeyboardInterrupt:
     pass  # Detiene el sonido con Ctrl+C

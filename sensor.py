@@ -24,3 +24,4 @@ try:
         time.sleep(0.1)  # Espera un poco antes de volver a comprobar
 except KeyboardInterrupt:
     pass  # Detiene el programa con Ctrl+C
+
